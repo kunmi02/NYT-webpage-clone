@@ -29,7 +29,14 @@ svg {
     width: 16px;
 }
 .heading{
-    
+    display: flex;
+    justify-content: center;
+    /* flex-flow: stretch wrap; */
+    /* width: 600px; */
+    margin: 0 20px 1rem;
+    font-weight: 700;
+    font-style: italic; 
+    text-transform: capitalize;
 }
 .menu{
     display: flex;
