@@ -1,0 +1,54 @@
+body {
+    /* font-family: 'Courier New', Courier, monospace, sans-serif; */
+    /* width: 100px; */
+    /* overflow: hidden; */
+    /* margin: 0;
+    padding: 0; */
+    /* height: 100%; */
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    /* display: inline; */
+}
+nav ul li, footer ul li {
+    display: inline;
+}
+/* header{
+    display: inline-flex;
+    height: 5px;
+}
+main {
+    display: flex;
+    justify-content: center;
+} */
+svg {
+    /* display: inline-block; */
+    height: 16px;
+    /* vertical-align: sub; */
+    width: 16px;
+}
+.heading{
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.main-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /* -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline */
+}
