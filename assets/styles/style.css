@@ -11,17 +11,6 @@
   font-weight: 700;
 }
 
-@font-face {
-  font-family: Syne;
-  src: url("assets/fonts/SyneTactile-Regular.ttf");
-  font-style: italic;
-  font-weight: 400;
-}
-
-form {
-  font-family: Syne, Georgia, 'Times New Roman', Times, serif;
-}
-
 *,
 html,
 body {
@@ -44,6 +33,16 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
 }
 
 nav ul li {
@@ -157,9 +156,32 @@ aside figcaption {
   flex-wrap: wrap-reverse;
 }
 
+form p {
+  font-family: Syne, Georgia, 'Times New Roman', Times, serif;
+}
+
 button {
   margin: 2px;
   margin-top: 0;
+  background-color: rgb(86, 123, 149);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 0.6s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  padding: 11px 12px 8px;
+}
+
+form button {
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
   background-color: rgb(86, 123, 149);
   color: rgb(255, 255, 255);
   font-size: 11px;
@@ -381,7 +403,7 @@ footer {
 .most-popular {
   position: absolute;
   top: 459em;
-  right: 17rem;
+  right: 10rem;
   width: 280px;
 }
 
@@ -453,8 +475,11 @@ footer {
   font-weight: bolder;
 }
 
-form p {
-  font-family: Syne, Georgia, 'Times New Roman', Times, serif;
+@font-face {
+  font-family: Syne;
+  src: url("assets/fonts/SyneTactile-Regular.ttf");
+  font-style: italic;
+  font-weight: 400;
 }
 
 fieldset {
@@ -466,17 +491,8 @@ fieldset {
 }
 
 form {
+  font-family: Syne, Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-}
-
-form ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form li + li {
-  margin-top: 1em;
 }
 
 label {
@@ -502,23 +518,4 @@ textarea {
 input:focus,
 textarea:focus {
   border-color: #000;
-}
-
-form button {
-  margin-top: 1rem;
-  text-align: center;
-  width: 100%;
-  background-color: rgb(86, 123, 149);
-  color: rgb(255, 255, 255);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  border-radius: 3px;
-  transition: all 0.6s ease 0s;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(50, 104, 145);
-  border-image: initial;
-  padding: 11px 12px 8px;
 }
