@@ -11,6 +11,17 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: Syne;
+  src: url("assets/fonts/SyneTactile-Regular.ttf");
+  font-style: italic;
+  font-weight: 400;
+}
+
+form {
+  font-family: Syne, Georgia, 'Times New Roman', Times, serif;
+}
+
 *,
 html,
 body {
@@ -440,4 +451,74 @@ footer {
   padding-top: 1em;
   width: 600px;
   font-weight: bolder;
+}
+
+form p {
+  font-family: Syne, Georgia, 'Times New Roman', Times, serif;
+}
+
+fieldset {
+  margin: 0 auto;
+  width: 700px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form {
+  text-align: center;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+form button {
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(86, 123, 149);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 0.6s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  padding: 11px 12px 8px;
 }
