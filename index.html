@@ -456,7 +456,46 @@
                                 d="M15.406 5.359L8.978 0v3.215C3.82 3.215.406 8.107.406 12.66 1.653 9.133 4.29 7.517 8.978 7.517v3.2l6.428-5.358z"
                                 fill="#000"></path>
                         </svg></a></li>
-                </ul></section>
+                </ul>
+                <details><summary>PLEASE ADD COMMENTS TO THIS ARTICLE HERE</summary>
+                    <form action="/my-handling-form-page" method="post">
+                     <fieldset>
+                       <legend>Your Comments Here please!</legend>
+                       <ul>
+                       <li>
+                         <label for="name">Name:</label>
+                         <input type="text" id="name" name="user_name" maxlength="20" required>
+                       </li>
+                       <li>
+                         <label for="mail">E-mail:</label>
+                         <input type="email" id="mail" name="email" maxlength="20" required>
+                       </li>
+                       <li>
+                         <label for="msg">Comments:</label>
+                         <textarea id="msg" name="Comments" maxlength="250" placeholder="Type your comments here" required></textarea>
+                       </li>
+                       <li>
+                         <label style="display: block; text-align: center;width: 500px;">What is your overall opinion:</label>
+                         <p style="display: flex; justify-content: center;width: 500px; padding-left: 11rem;">
+                         <label for="positive">Positive</label>
+                         <input type="radio" id="positive" name="opinion" value="positive">
+                         <label for="positive">Negative</label>
+                         <input type="radio" id="negative" name="opinion" value="negative">
+                         <label for="positive">Neutral</label>
+                         <input type="radio" id="neutral" name="opinion" value="neutral">
+                         </p>
+                       </li>
+                       <li>
+                         <label for="subscribe"> I want to subscribe to the newsletter</label>
+                         <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+                       </li>
+                       <li class="button">
+                         <button type="submit">Send</button>
+                       </li>
+                       </ul>
+                     </fieldset>
+                     </form></details>
+            </section>
         </article> 
     </main>
     <p class="space-astronomy"> More In Space and Astronomy</p>
